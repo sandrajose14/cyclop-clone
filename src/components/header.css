@@ -1,0 +1,89 @@
+.head {
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    height: 35px;
+    text-decoration: underline white;
+}
+
+.Navbar {
+    background-color: black;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.main-page {
+    position: relative;
+    background-image: url('https://www.cyclop.in/cdn/shop/files/web_banner_4_300x.png?v=1706457602');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    line-height: 25px;
+    margin-top: -7px; /* Adjusted margin-top */
+    overflow-x: hidden;
+}
+
+@media (max-width: 576px) {
+    .main-page {
+        width: 100%; /* Adjusted width for smaller screens */
+        height: 300px; /* Adjusted height for smaller screens */
+        margin-top: -7; /* Reset margin-top */
+    }
+    .banner-details p {
+        font-size: 20px !important; /* Decrease font size for small screens */
+        margin-top: -6px !important;
+       
+    }
+    .banner-details h1 {
+        font-size: 26px !important; /* Decrease font size for small screens */
+        letter-spacing: normal; /* Reset letter spacing for small screens */
+        white-space: nowrap; /* Prevent wrapping of text */
+        font-weight: bolder;
+       
+    }
+}
+
+@media (min-width: 576px) {
+    .banner-details h1 {
+      font-size: 40px; /* Increase font size for larger screens */
+      letter-spacing: 4px; /* Increase letter spacing for larger screens */
+      white-space: nowrap; /* Prevent wrapping of text */
+    }
+}
+
+@media (min-width: 768px) {
+    .main-page {
+        height: 120vh; /* Increased height for larger screens */
+    }
+    
+
+}
+
+@media (min-width: 992px) {
+    .main-page {
+        height: 100vh; /* Further increased height for even larger screens */
+    }
+    
+}
+/* header.css */
+@media (min-width: 768px) {
+    .custom-dropdown {
+      width: 100%; /* Adjust as needed */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .custom-dropdown {
+      width: 100%; /* Adjust as needed */
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .custom-dropdown {
+      width: 100%; /* Adjust as needed */
+    }
+  }
+  

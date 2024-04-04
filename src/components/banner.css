@@ -1,0 +1,26 @@
+/* Media query for small devices (phones) */
+@media (max-width: 576px) {
+    .text-center h3 {
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+    .banner{
+        width: 320px;
+    }
+  }
+
+  
+  /* Media query for medium devices (tablets) */
+  @media (min-width: 576px) and (max-width: 992px) {
+    .text-center h3 {
+      font-size: 2rem;
+    }
+  }
+  
+  /* Media query for large devices (desktops) */
+  @media (min-width: 992px) {
+    .text-center h3 {
+      font-size: 2.5rem;
+    }
+  }
+  
